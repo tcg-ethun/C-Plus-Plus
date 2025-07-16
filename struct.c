@@ -27,6 +27,7 @@ int main()
   printf("Roll is : %d \n",s2.roll);
   printf("Cgpa is : %.1f \n \n",s2.cgp);
 
+  
   struct student s3;
   s3.roll = 40;
   s3.cgp = 4.3;
