@@ -19,7 +19,7 @@ using namespace std;
 int main()
 {
       
-      int arr[] = {2, 4, 1, 7, 3};
+      int arr[] = {22, 41, 11, 17, 3};
     int n = sizeof(arr) / sizeof(arr[0]);
     shot(arr, n);
 
