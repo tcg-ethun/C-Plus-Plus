@@ -10,18 +10,18 @@
 
 int main()
 {
-   struct student op1;
-   op1.roll = 20;
-   op1.cgp = 5.0;
-   strcpy(op1.name,"Ethun");
-   printf("Name is : %s \n",op1.name);
-   printf("Roll is : %d \n",op1.roll);
-   printf("Cgpa is : %.1f \n \n",op1.cgp);
+   struct student s1;
+   s1.roll = 20;
+   s1.cgp = 5.0;
+   strcpy(s1.name,"Ethun");
+   printf("Name is : %s \n",s1.name);
+   printf("Roll is : %d \n",s1.roll);
+   printf("Cgpa is : %.1f \n \n",s1.cgp);
 
 
    struct student s2;
-   s2.roll = 30;
-   s2.cgp = 3.5;
+   s2.roll = 10;
+   s2.cgp = 4.5;
    strcpy(s2.name,"ESAN");
   printf("Name is : %s \n",s2.name);
   printf("Roll is : %d \n",s2.roll);
@@ -29,7 +29,7 @@ int main()
 
   
   struct student s3;
-  s3.roll = 40;
+  s3.roll = 20;
   s3.cgp = 4.3;
   strcpy(s3.name,"RATUL");
   printf("Name is : %s \n",s3.name);
