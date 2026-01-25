@@ -22,7 +22,7 @@ int main()
    struct student s2;
    s2.roll = 30;
    s2.cgp = 3.5;
-   strcpy(s2.name,"Tithi");
+   strcpy(s2.name,"ESAN");
   printf("Name is : %s \n",s2.name);
   printf("Roll is : %d \n",s2.roll);
   printf("Cgpa is : %.1f \n \n",s2.cgp);
@@ -31,7 +31,7 @@ int main()
   struct student s3;
   s3.roll = 40;
   s3.cgp = 4.3;
-  strcpy(s3.name,"Shiuli");
+  strcpy(s3.name,"RATUL");
   printf("Name is : %s \n",s3.name);
   printf("Roll is : %d \n",s3.roll);
   printf("Cgpa is : %.1f \n",s3.cgp);
